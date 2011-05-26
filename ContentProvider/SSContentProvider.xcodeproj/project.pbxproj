@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA009BAC1386C7C500246E47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA009BAB1386C7C500246E47 /* Foundation.framework */; };
+		AA009BBF1386C7F100246E47 /* SSContentBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = AA009BBB1386C7F100246E47 /* SSContentBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA009BC01386C7F100246E47 /* SSContentBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = AA009BBC1386C7F100246E47 /* SSContentBundle.m */; };
+		AA009BC11386C7F100246E47 /* LiteUnzip.c in Sources */ = {isa = PBXBuildFile; fileRef = AA009BBD1386C7F100246E47 /* LiteUnzip.c */; };
+		AA009BC21386C7F100246E47 /* LiteUnzip.h in Headers */ = {isa = PBXBuildFile; fileRef = AA009BBE1386C7F100246E47 /* LiteUnzip.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA009BA81386C7C500246E47 /* libSSContentProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSContentProvider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA009BAB1386C7C500246E47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA009BAF1386C7C500246E47 /* SSContentProvider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSContentProvider-Prefix.pch"; sourceTree = "<group>"; };
+		AA009BBB1386C7F100246E47 /* SSContentBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSContentBundle.h; sourceTree = "<group>"; };
+		AA009BBC1386C7F100246E47 /* SSContentBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSContentBundle.m; sourceTree = "<group>"; };
+		AA009BBD1386C7F100246E47 /* LiteUnzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LiteUnzip.c; sourceTree = "<group>"; };
+		AA009BBE1386C7F100246E47 /* LiteUnzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteUnzip.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA009BA51386C7C500246E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA009BAC1386C7C500246E47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA009B9D1386C7C500246E47 = {
+			isa = PBXGroup;
+			children = (
+				AA009BAD1386C7C500246E47 /* ContentProvider */,
+				AA009BAA1386C7C500246E47 /* Frameworks */,
+				AA009BA91386C7C500246E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA009BA91386C7C500246E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA009BA81386C7C500246E47 /* libSSContentProvider.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA009BAA1386C7C500246E47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA009BAB1386C7C500246E47 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA009BAD1386C7C500246E47 /* ContentProvider */ = {
+			isa = PBXGroup;
+			children = (
+				AA009BBB1386C7F100246E47 /* SSContentBundle.h */,
+				AA009BBC1386C7F100246E47 /* SSContentBundle.m */,
+				AA009BBD1386C7F100246E47 /* LiteUnzip.c */,
+				AA009BBE1386C7F100246E47 /* LiteUnzip.h */,
+				AA009BAE1386C7C500246E47 /* Supporting Files */,
+			);
+			path = ContentProvider;
+			sourceTree = "<group>";
+		};
+		AA009BAE1386C7C500246E47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA009BAF1386C7C500246E47 /* SSContentProvider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA009BA61386C7C500246E47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA009BBF1386C7F100246E47 /* SSContentBundle.h in Headers */,
+				AA009BC21386C7F100246E47 /* LiteUnzip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA009BA71386C7C500246E47 /* SSContentProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA009BB21386C7C500246E47 /* Build configuration list for PBXNativeTarget "SSContentProvider" */;
+			buildPhases = (
+				AA009BA41386C7C500246E47 /* Sources */,
+				AA009BA51386C7C500246E47 /* Frameworks */,
+				AA009BA61386C7C500246E47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSContentProvider;
+			productName = ContentProvider;
+			productReference = AA009BA81386C7C500246E47 /* libSSContentProvider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA009B9F1386C7C500246E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Neudesic LLC";
+			};
+			buildConfigurationList = AA009BA21386C7C500246E47 /* Build configuration list for PBXProject "SSContentProvider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA009B9D1386C7C500246E47;
+			productRefGroup = AA009BA91386C7C500246E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA009BA71386C7C500246E47 /* SSContentProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA009BA41386C7C500246E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA009BC01386C7F100246E47 /* SSContentBundle.m in Sources */,
+				AA009BC11386C7F100246E47 /* LiteUnzip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA009BB01386C7C500246E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA009BB11386C7C500246E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AA009BB31386C7C500246E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ContentProvider.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContentProvider/SSContentProvider-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SSContentProvider;
+			};
+			name = Debug;
+		};
+		AA009BB41386C7C500246E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ContentProvider.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContentProvider/SSContentProvider-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SSContentProvider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA009BA21386C7C500246E47 /* Build configuration list for PBXProject "SSContentProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA009BB01386C7C500246E47 /* Debug */,
+				AA009BB11386C7C500246E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA009BB21386C7C500246E47 /* Build configuration list for PBXNativeTarget "SSContentProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA009BB31386C7C500246E47 /* Debug */,
+				AA009BB41386C7C500246E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA009B9F1386C7C500246E47 /* Project object */;
+}
