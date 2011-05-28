@@ -7,7 +7,6 @@
 //
 
 #import "ContentTestAppDelegate.h"
-#import "SSContentBundle.h"
 
 @implementation ContentTestAppDelegate
 
@@ -16,28 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	// Override point for customization after application launch.
-	self.window.hidden = YES;
-	
-	SSContentBundle* provider = [SSContentBundle mainBundle];
-	NSLog(@"Path to LiteUnzip.c    : %@", [provider pathForFile:@"LiteUnzip.c"]);
-	NSLog(@"Path to NonExistent.txt: %@", [provider pathForFile:@"NonExistent.txt"]);
-	NSLog(@"Path to serverversion.txt: %@", [provider pathForFile:@"serverversion.txt"]);
-	
-	[provider checkForUpdatesWithCompletionHandler:^(BOOL updateFound, NSError *error) 
-	 {
-		 if(error)
-		 {
-			 NSLog(@"Error removing old content: %@", [error localizedDescription]);
-			 [error release];
-			 error = nil;
-		 }
-
-		 NSLog(@"Path to serverversion.txt: %@", [provider pathForFile:@"serverversion.txt"]);
-		 
-		 // Override point for customization after application launch.
-		 [self.window makeKeyAndVisible];
-	 }];
-	
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

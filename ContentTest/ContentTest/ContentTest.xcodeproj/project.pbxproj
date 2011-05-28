@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA557C6513908C1000C0D231 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA557C6413908C1000C0D231 /* RootViewController.m */; };
+		AA557C6B1390933C00C0D231 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AA557C6A1390933C00C0D231 /* index.html */; };
 		AAC462F51386D5C3000B11D2 /* test.zip in Resources */ = {isa = PBXBuildFile; fileRef = AAC462F41386D5C3000B11D2 /* test.zip */; };
 		AAC463381386D67E000B11D2 /* libSSContentProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC463371386D67E000B11D2 /* libSSContentProvider.a */; };
 		AADA8C491386CBF70052050C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADA8C481386CBF70052050C /* UIKit.framework */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA557C6313908C1000C0D231 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AA557C6413908C1000C0D231 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AA557C6713908FE800C0D231 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AA557C6A1390933C00C0D231 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		AAC462F41386D5C3000B11D2 /* test.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = test.zip; sourceTree = "<group>"; };
 		AAC4632C1386D66E000B11D2 /* SSContentProvider.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSContentProvider.xcodeproj; path = ../../ContentProvider/SSContentProvider.xcodeproj; sourceTree = "<group>"; };
 		AAC463371386D67E000B11D2 /* libSSContentProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSSContentProvider.a; sourceTree = SOURCE_ROOT; };
@@ -67,6 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA557C6613908FAF00C0D231 /* Content Source */ = {
+			isa = PBXGroup;
+			children = (
+				AA557C6713908FE800C0D231 /* index.html */,
+			);
+			path = "Content Source";
+			sourceTree = "<group>";
+		};
+		AA557C691390933C00C0D231 /* Server Version */ = {
+			isa = PBXGroup;
+			children = (
+				AA557C6A1390933C00C0D231 /* index.html */,
+			);
+			path = "Server Version";
+			sourceTree = "<group>";
+		};
 		AAC4632D1386D66E000B11D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +131,8 @@
 			children = (
 				AADA8C571386CBF70052050C /* ContentTestAppDelegate.h */,
 				AADA8C581386CBF70052050C /* ContentTestAppDelegate.m */,
+				AA557C6313908C1000C0D231 /* RootViewController.h */,
+				AA557C6413908C1000C0D231 /* RootViewController.m */,
 				AADA8C5A1386CBF80052050C /* MainWindow.xib */,
 				AADA8C4F1386CBF70052050C /* Supporting Files */,
 			);
@@ -118,6 +142,8 @@
 		AADA8C4F1386CBF70052050C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA557C6613908FAF00C0D231 /* Content Source */,
+				AA557C691390933C00C0D231 /* Server Version */,
 				AAC462F41386D5C3000B11D2 /* test.zip */,
 				AADA8C501386CBF70052050C /* ContentTest-Info.plist */,
 				AADA8C511386CBF70052050C /* InfoPlist.strings */,
@@ -197,6 +223,7 @@
 				AADA8C531386CBF70052050C /* InfoPlist.strings in Resources */,
 				AADA8C5C1386CBF80052050C /* MainWindow.xib in Resources */,
 				AAC462F51386D5C3000B11D2 /* test.zip in Resources */,
+				AA557C6B1390933C00C0D231 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +236,7 @@
 			files = (
 				AADA8C561386CBF70052050C /* main.m in Sources */,
 				AADA8C591386CBF70052050C /* ContentTestAppDelegate.m in Sources */,
+				AA557C6513908C1000C0D231 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

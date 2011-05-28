@@ -33,6 +33,12 @@
 }
 
 /*!
+ @property version
+ @abstract Returns the version number of the content.
+ */
+@property (readonly) NSInteger version;
+
+/*!
  @method mainBundle
  @abstract Returns the content bundle identifed in the info.plist under the key "SSContentBundle".
  @result The content bundle, or nil if an error occurs.

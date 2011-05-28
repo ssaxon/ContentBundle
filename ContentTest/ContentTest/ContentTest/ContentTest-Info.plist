@@ -28,12 +28,6 @@
 	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
-	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
 	<key>SSContentBundle</key>
 	<dict>
 		<key>SourceFile</key>
@@ -43,7 +37,13 @@
 		<key>TargetFolder</key>
 		<string>mytest</string>
 		<key>VersionURL</key>
-		<string>http://www.stevesaxon.me/media/test/version.txt</string>
+		<string>http://www.stevesaxon.me/media/mytest/version.txt</string>
 	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
 </dict>
 </plist>

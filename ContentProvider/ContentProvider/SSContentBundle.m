@@ -33,6 +33,8 @@ static SSContentBundle* _provider;
 
 @implementation SSContentBundle
 
+@synthesize version = _currentVersion;
+
 - (id) initWithSource:(NSString*)sourceFile 
 			  version:(NSInteger)version 
 			serverURL:(NSString*)serverURL
